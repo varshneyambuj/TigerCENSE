@@ -1,0 +1,37 @@
+# Compiled binaries and firmware images
+*.o
+*.elf
+*.bin
+*.hex
+*.srec
+*.map
+
+# Compiler/IDE output
+*.cf
+*.lst
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# IAR Embedded Workbench
+iar_projects/
+*.ewd
+*.ewp
+*.eww
+
+# AVR Studio
+*.aps
+
+# Build output directories
+**/Obj/
+**/Exe/
+**/List/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test data
+test_pattern.txt
